@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SwiftUISample
+//  Tabbar-SwiftUI
 //
 //  Created by Hxtreme on 24/06/20.
 //  Copyright © 2020 Hxtreme. All rights reserved.

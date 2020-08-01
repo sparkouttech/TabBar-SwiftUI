@@ -1,17 +1,15 @@
-//
-//  ContentView.swift
-//  SwiftUISample
-//
-//  Created by Hxtreme on 24/06/20.
-//  Copyright © 2020 Hxtreme. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State var counter = 0
     var body: some View {
-        Text("Hello, World!")
+        Text("Hello World")
     }
+}
+
+func debug<A: View>(_ a: A) -> some View {
+    print(Mirror(reflecting: a).subjectType)
+    return a
 }
 
 struct ContentView_Previews: PreviewProvider {

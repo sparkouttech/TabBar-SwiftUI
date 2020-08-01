@@ -15,6 +15,10 @@
 		78A6001624A318100035B6D4 /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6001524A318100035B6D4 /* SwiftUISampleTests.swift */; };
 		78A6002124A318100035B6D4 /* SwiftUISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6002024A318100035B6D4 /* SwiftUISampleUITests.swift */; };
 		78A6FFFF24A3180E0035B6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6FFFE24A3180E0035B6D4 /* AppDelegate.swift */; };
+		78D5C24D24D4A432000DD191 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D5C24C24D4A432000DD191 /* TabBarView.swift */; };
+		78D5C24F24D4A63D000DD191 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D5C24E24D4A63D000DD191 /* HomeView.swift */; };
+		78D5C25124D4A684000DD191 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D5C25024D4A684000DD191 /* MapView.swift */; };
+		78D5C25324D4AD52000DD191 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D5C25224D4AD52000DD191 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +45,18 @@
 		78A6000724A318100035B6D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78A6000A24A318100035B6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A6000C24A318100035B6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78A6001124A318100035B6D4 /* SwiftUISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A6001124A318100035B6D4 /* Tabbar-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabbar-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6001524A318100035B6D4 /* SwiftUISampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleTests.swift; sourceTree = "<group>"; };
 		78A6001724A318100035B6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78A6001C24A318100035B6D4 /* SwiftUISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A6001C24A318100035B6D4 /* Tabbar-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabbar-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6002024A318100035B6D4 /* SwiftUISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITests.swift; sourceTree = "<group>"; };
 		78A6002224A318100035B6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78A6FFFB24A3180E0035B6D4 /* SwiftUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A6FFFB24A3180E0035B6D4 /* Tabbar-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabbar-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A6FFFE24A3180E0035B6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78D5C24C24D4A432000DD191 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		78D5C24E24D4A63D000DD191 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		78D5C25024D4A684000DD191 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		78D5C25224D4AD52000DD191 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,9 @@
 		78A6FFFC24A3180E0035B6D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78A6FFFB24A3180E0035B6D4 /* SwiftUISample.app */,
-				78A6001124A318100035B6D4 /* SwiftUISampleTests.xctest */,
-				78A6001C24A318100035B6D4 /* SwiftUISampleUITests.xctest */,
+				78A6FFFB24A3180E0035B6D4 /* Tabbar-SwiftUI.app */,
+				78A6001124A318100035B6D4 /* Tabbar-SwiftUITests.xctest */,
+				78A6001C24A318100035B6D4 /* Tabbar-SwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +136,10 @@
 				78A6FFFE24A3180E0035B6D4 /* AppDelegate.swift */,
 				78A6000024A3180E0035B6D4 /* SceneDelegate.swift */,
 				78A6000224A3180E0035B6D4 /* ContentView.swift */,
+				78D5C25224D4AD52000DD191 /* ProfileView.swift */,
+				78D5C24E24D4A63D000DD191 /* HomeView.swift */,
+				78D5C25024D4A684000DD191 /* MapView.swift */,
+				78D5C24C24D4A432000DD191 /* TabBarView.swift */,
 				78A6000424A318100035B6D4 /* Assets.xcassets */,
 				78A6000924A318100035B6D4 /* LaunchScreen.storyboard */,
 				78A6000C24A318100035B6D4 /* Info.plist */,
@@ -139,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78A6001024A318100035B6D4 /* SwiftUISampleTests */ = {
+		78A6001024A318100035B6D4 /* Tabbar-SwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A6002824A318100035B6D4 /* Build configuration list for PBXNativeTarget "SwiftUISampleTests" */;
+			buildConfigurationList = 78A6002824A318100035B6D4 /* Build configuration list for PBXNativeTarget "Tabbar-SwiftUITests" */;
 			buildPhases = (
 				78A6000D24A318100035B6D4 /* Sources */,
 				78A6000E24A318100035B6D4 /* Frameworks */,
@@ -152,14 +164,14 @@
 			dependencies = (
 				78A6001324A318100035B6D4 /* PBXTargetDependency */,
 			);
-			name = SwiftUISampleTests;
+			name = "Tabbar-SwiftUITests";
 			productName = SwiftUISampleTests;
-			productReference = 78A6001124A318100035B6D4 /* SwiftUISampleTests.xctest */;
+			productReference = 78A6001124A318100035B6D4 /* Tabbar-SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		78A6001B24A318100035B6D4 /* SwiftUISampleUITests */ = {
+		78A6001B24A318100035B6D4 /* Tabbar-SwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A6002B24A318100035B6D4 /* Build configuration list for PBXNativeTarget "SwiftUISampleUITests" */;
+			buildConfigurationList = 78A6002B24A318100035B6D4 /* Build configuration list for PBXNativeTarget "Tabbar-SwiftUIUITests" */;
 			buildPhases = (
 				78A6001824A318100035B6D4 /* Sources */,
 				78A6001924A318100035B6D4 /* Frameworks */,
@@ -170,14 +182,14 @@
 			dependencies = (
 				78A6001E24A318100035B6D4 /* PBXTargetDependency */,
 			);
-			name = SwiftUISampleUITests;
+			name = "Tabbar-SwiftUIUITests";
 			productName = SwiftUISampleUITests;
-			productReference = 78A6001C24A318100035B6D4 /* SwiftUISampleUITests.xctest */;
+			productReference = 78A6001C24A318100035B6D4 /* Tabbar-SwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		78A6FFFA24A3180E0035B6D4 /* SwiftUISample */ = {
+		78A6FFFA24A3180E0035B6D4 /* Tabbar-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78A6002524A318100035B6D4 /* Build configuration list for PBXNativeTarget "SwiftUISample" */;
+			buildConfigurationList = 78A6002524A318100035B6D4 /* Build configuration list for PBXNativeTarget "Tabbar-SwiftUI" */;
 			buildPhases = (
 				78A6FFF724A3180E0035B6D4 /* Sources */,
 				78A6FFF824A3180E0035B6D4 /* Frameworks */,
@@ -187,9 +199,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUISample;
+			name = "Tabbar-SwiftUI";
 			productName = SwiftUISample;
-			productReference = 78A6FFFB24A3180E0035B6D4 /* SwiftUISample.app */;
+			productReference = 78A6FFFB24A3180E0035B6D4 /* Tabbar-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 78A6FFF624A3180E0035B6D4 /* Build configuration list for PBXProject "SwiftUISample" */;
+			buildConfigurationList = 78A6FFF624A3180E0035B6D4 /* Build configuration list for PBXProject "Tabbar-SwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78A6FFFA24A3180E0035B6D4 /* SwiftUISample */,
-				78A6001024A318100035B6D4 /* SwiftUISampleTests */,
-				78A6001B24A318100035B6D4 /* SwiftUISampleUITests */,
+				78A6FFFA24A3180E0035B6D4 /* Tabbar-SwiftUI */,
+				78A6001024A318100035B6D4 /* Tabbar-SwiftUITests */,
+				78A6001B24A318100035B6D4 /* Tabbar-SwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A6FFFF24A3180E0035B6D4 /* AppDelegate.swift in Sources */,
+				78D5C25124D4A684000DD191 /* MapView.swift in Sources */,
 				78A6000124A3180E0035B6D4 /* SceneDelegate.swift in Sources */,
+				78D5C24D24D4A432000DD191 /* TabBarView.swift in Sources */,
+				78D5C24F24D4A63D000DD191 /* HomeView.swift in Sources */,
+				78D5C25324D4AD52000DD191 /* ProfileView.swift in Sources */,
 				78A6000324A3180E0035B6D4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		78A6001324A318100035B6D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78A6FFFA24A3180E0035B6D4 /* SwiftUISample */;
+			target = 78A6FFFA24A3180E0035B6D4 /* Tabbar-SwiftUI */;
 			targetProxy = 78A6001224A318100035B6D4 /* PBXContainerItemProxy */;
 		};
 		78A6001E24A318100035B6D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78A6FFFA24A3180E0035B6D4 /* SwiftUISample */;
+			target = 78A6FFFA24A3180E0035B6D4 /* Tabbar-SwiftUI */;
 			targetProxy = 78A6001D24A318100035B6D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISample.app/SwiftUISample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabbar-SwiftUI.app/Tabbar-SwiftUI";
 			};
 			name = Debug;
 		};
@@ -506,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISample.app/SwiftUISample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabbar-SwiftUI.app/Tabbar-SwiftUI";
 			};
 			name = Release;
 		};
@@ -551,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78A6002524A318100035B6D4 /* Build configuration list for PBXNativeTarget "SwiftUISample" */ = {
+		78A6002524A318100035B6D4 /* Build configuration list for PBXNativeTarget "Tabbar-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A6002624A318100035B6D4 /* Debug */,
@@ -560,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A6002824A318100035B6D4 /* Build configuration list for PBXNativeTarget "SwiftUISampleTests" */ = {
+		78A6002824A318100035B6D4 /* Build configuration list for PBXNativeTarget "Tabbar-SwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A6002924A318100035B6D4 /* Debug */,
@@ -569,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A6002B24A318100035B6D4 /* Build configuration list for PBXNativeTarget "SwiftUISampleUITests" */ = {
+		78A6002B24A318100035B6D4 /* Build configuration list for PBXNativeTarget "Tabbar-SwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A6002C24A318100035B6D4 /* Debug */,
@@ -578,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78A6FFF624A3180E0035B6D4 /* Build configuration list for PBXProject "SwiftUISample" */ = {
+		78A6FFF624A3180E0035B6D4 /* Build configuration list for PBXProject "Tabbar-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78A6002324A318100035B6D4 /* Debug */,

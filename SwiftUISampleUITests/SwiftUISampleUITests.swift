@@ -1,6 +1,6 @@
 //
-//  SwiftUISampleUITests.swift
-//  SwiftUISampleUITests
+//  Tabbar-SwiftUIUITests.swift
+//  Tabbar-SwiftUIUITests
 //
 //  Created by Hxtreme on 24/06/20.
 //  Copyright © 2020 Hxtreme. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SwiftUISampleUITests: XCTestCase {
+class Tabbar-SwiftUIUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
